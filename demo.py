@@ -1,5 +1,8 @@
-def square(x):
-    return x * x
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-for i in range(10):
-    print("{} squared is {}".format(i, square(i)))
+p = Point(3, 5)
+print(p.x)
+print(p.y)
