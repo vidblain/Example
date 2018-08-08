@@ -1,2 +1,3 @@
-for i in range(1,60,3):
-    print(i)
+names = ["Alice", "Bob", "Charlie"]
+for name in names:
+    print(name)
