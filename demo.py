@@ -1,5 +1,5 @@
-ages = {"Alice": 22, "Bob": 27}
-ages["Charlie"] = 30
-ages["Alice"] += 1
+def square(x):
+    return x * x
 
-print(ages)
+for i in range(10):
+    print("{} squared is {}".format(i, square(i)))
